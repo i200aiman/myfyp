@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createandview">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:drawableLeft="@drawable/ic_company"
+            android:drawablePadding="10dp"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:textColorHint="#3b7bbf" />
+
+        <EditText
+            android:id="@+id/latitude"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+
+            android:drawablePadding="10dp"
+            android:hint="Latitude"
+            android:inputType="textPersonName"
+            android:textColorHint="#3b7bbf" />
+
+        <EditText
+            android:id="@+id/longitude"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+
+            android:drawablePadding="10dp"
+            android:hint="Longitude"
+            android:inputType="textPersonName"
+            android:textColorHint="#3b7bbf" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:background="@drawable/buttoncompany"
+            android:text="Save"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttoncompany"
+            android:text="View"
+            android:textColor="#fff" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

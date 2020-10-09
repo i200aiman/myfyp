@@ -24,7 +24,7 @@
         android:id="@+id/company"
         android:layout_width="259dp"
         android:layout_height="46dp"
-        android:background="@drawable/button"
+        android:background="@drawable/buttoncompany"
         android:text="Company"
         android:textColor="@color/cardview_light_background"
         app:layout_constraintBottom_toBottomOf="parent"

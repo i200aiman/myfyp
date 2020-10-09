@@ -32,12 +32,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:drawableLeft="@drawable/ic_person"
+            android:drawableLeft="@drawable/ic_company"
             android:drawablePadding="10dp"
             android:layout_marginLeft="20dp"
             android:hint="Username"
             android:inputType="textPersonName"
-            android:textColorHint="#C609A0" />
+            android:textColorHint="#3b7bbf" />
 
         <EditText
             android:id="@+id/Email"
@@ -46,11 +46,11 @@
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            android:drawableLeft="@drawable/ic_email"
+            android:drawableLeft="@drawable/email_comp"
             android:drawablePadding="10dp"
             android:hint="Email"
             android:inputType="textWebEmailAddress"
-            android:textColorHint="#C609A0" />
+            android:textColorHint="#3b7bbf" />
 
         <EditText
             android:id="@+id/password"
@@ -58,12 +58,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:drawableLeft="@drawable/ic_lock"
+            android:drawableLeft="@drawable/company_lock"
             android:drawablePadding="10dp"
             android:hint="Password"
             android:inputType="textPassword"
             android:padding="20dp"
-            android:textColorHint="#C609A0" />
+            android:textColorHint="#3b7bbf" />
 
         <EditText
             android:id="@+id/phone"
@@ -71,12 +71,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:drawableLeft="@drawable/ic_local"
+            android:drawableLeft="@drawable/phone_comp"
             android:drawablePadding="10dp"
             android:hint="Phone Number"
             android:inputType="textPhonetic"
             android:padding="20dp"
-            android:textColorHint="#C609A0" />
+            android:textColorHint="#3b7bbf" />
 
         <Button
             android:id="@+id/loginbtn"
@@ -84,7 +84,7 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:background="@drawable/button"
+            android:background="@drawable/buttoncompany"
             android:text="Register"
             android:textColor="#fff" />
 
@@ -95,7 +95,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:text="Already Have Account?Login Now!"
-            android:textColor="#C609A0"
+            android:textColor="#3b7bbf"
             android:textSize="20dp"
             android:textStyle="bold" />
 

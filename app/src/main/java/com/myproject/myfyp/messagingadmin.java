@@ -25,7 +25,7 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-public class messaging extends AppCompatActivity {
+public class messagingadmin extends AppCompatActivity {
 
 
     ListView lvDiscussionTopics;
@@ -36,11 +36,10 @@ public class messaging extends AppCompatActivity {
 
     private DatabaseReference dbr = FirebaseDatabase.getInstance().getReference().getRoot().getRoot();
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_messaging);
+        setContentView(R.layout.activity_messagingadmin);
 
         lvDiscussionTopics = (ListView) findViewById(R.id.lvDiscussionTopics);
         arrayAdpt = new ArrayAdapter(this,
@@ -82,9 +81,6 @@ public class messaging extends AppCompatActivity {
             }
         });
     }
-
-
-
     private void getUserName(){
         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
         final EditText userName = new EditText(this);
@@ -105,4 +101,6 @@ public class messaging extends AppCompatActivity {
 
         builder.show();
     }
+
+
 }

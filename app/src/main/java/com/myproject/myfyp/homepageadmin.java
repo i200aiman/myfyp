@@ -33,7 +33,7 @@ import java.io.IOException;
 
 
 public class homepageadmin extends AppCompatActivity {
-    private Button logout,geofence,profile;
+    private Button logout,geofence,profile,messageadmin;
 
     FirebaseAuth fAuth;
 
@@ -45,6 +45,7 @@ public class homepageadmin extends AppCompatActivity {
 
         fAuth = FirebaseAuth.getInstance();
 
+        messageadmin=findViewById(R.id.buttonMessage);
         geofence=findViewById(R.id.buttonGeo);
         profile = findViewById(R.id.buttonPerson);
         logout = findViewById(R.id.logout);
@@ -59,7 +60,14 @@ public class homepageadmin extends AppCompatActivity {
         geofence.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(homepageadmin.this,geofencing.class));
+                startActivity(new Intent(homepageadmin.this,createandview.class));
+            }
+        });
+
+        messageadmin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(homepageadmin.this,messagingadmin.class));
             }
         });
 
